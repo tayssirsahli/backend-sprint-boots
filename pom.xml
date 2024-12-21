@@ -6,13 +6,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-<<<<<<< HEAD
-		<version>3.0.4</version>
-		<relativePath />
-=======
-		<version>3.2.5</version>
-		<relativePath/> 
->>>>>>> a81a6481b2a22ddb8f69c59b677cf944dabc1875
+		<version>3.2.5</version> <!-- Choisissez la version souhaitée -->
+		<relativePath /> 
 	</parent>
 	<groupId>com.Tayssir</groupId>
 	<artifactId>cosmetiques</artifactId>
@@ -64,13 +59,11 @@
 		</dependency>
 	</dependencies>
 
-
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-
 			</plugin>
 		</plugins>
 	</build>
